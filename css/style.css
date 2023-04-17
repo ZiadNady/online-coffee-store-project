@@ -377,13 +377,13 @@ section{
     background: var(--main-color);
 }
 
-.book{
-    background: url(../image/book-bg.jpg) no-repeat;
+.contact_us{
+    background: url(../image/contact-us-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.book form{
+.contact_us form{
     margin: 0 auto 2rem auto;
     max-width: 60rem;
     border-radius: var(--border-radius);
@@ -391,7 +391,7 @@ section{
     border: var(--border);
 }
 
-.book form .box{
+.contact_us form .box{
     width: 100%;
     padding: 1rem 1.2rem;
     border-radius: .5rem;
@@ -403,11 +403,11 @@ section{
     margin: .7rem 0;
 }
 
-.book form .box:focus{
+.contact_us form .box:focus{
     border: var(--border-hover);
 }
 
-.book form textarea{
+.contact_us form textarea{
     height: 15rem;
     resize: none;
 }
