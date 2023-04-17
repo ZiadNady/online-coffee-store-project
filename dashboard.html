@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css">
+</head>
+<body>
+	<header>
+		<h1>Admin Dashboard</h1>
+		<nav>
+			<ul>
+				<li><a href="#users">Users</a></li>
+				<li><a href="#posts">Posts</a></li>
+				<li><a href="#settings">Settings</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="users">
+			<?php include('users.php'); ?>
+		</section>
+
+		<section id="posts">
+			<?php include('posts.php'); ?>
+		</section>
+
+		<section id="settings">
+			<?php include('settings.php'); ?>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Admin Dashboard</p>
+	</footer>
+</body>
+</html>
